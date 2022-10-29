@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/musica/home/static/css/main.fad0ace8.css",
-    "main.js": "/musica/home/static/js/main.e5e0189e.js",
-    "static/js/787.b0b180bb.chunk.js": "/musica/home/static/js/787.b0b180bb.chunk.js",
-    "static/media/Lead-image.png": "/musica/home/static/media/Lead-image.be665447a8fff14508a0.png",
-    "static/media/Pexels Photo by Eric Esma.png": "/musica/home/static/media/Pexels Photo by Eric Esma.0696ad12dc475b55b8fd.png",
-    "static/media/waves.png": "/musica/home/static/media/waves.1b5d08c9188d85c8a566.png",
-    "static/media/shuffle.svg": "/musica/home/static/media/shuffle.fb0e62e10c6e96932b667c1300aa611e.svg",
-    "static/media/volume-high.svg": "/musica/home/static/media/volume-high.e3cff1db4f558232f2625d4477ac1fe4.svg",
-    "index.html": "/musica/home/index.html",
-    "static/media/previous.svg": "/musica/home/static/media/previous.dd5f3fc0817edc2b34ce3bd33d1e8a4d.svg",
-    "static/media/next.svg": "/musica/home/static/media/next.8f246edab9d3194aa184199ba114238e.svg",
-    "static/media/play icon.svg": "/musica/home/static/media/play icon.ec33adbbe51ad9127bdd7fe4cafd3f97.svg",
-    "main.fad0ace8.css.map": "/musica/home/static/css/main.fad0ace8.css.map",
-    "main.e5e0189e.js.map": "/musica/home/static/js/main.e5e0189e.js.map",
-    "787.b0b180bb.chunk.js.map": "/musica/home/static/js/787.b0b180bb.chunk.js.map"
+    "main.css": "/musica/static/css/main.fad0ace8.css",
+    "main.js": "/musica/static/js/main.81afbcce.js",
+    "static/js/787.b0b180bb.chunk.js": "/musica/static/js/787.b0b180bb.chunk.js",
+    "static/media/Lead-image.png": "/musica/static/media/Lead-image.be665447a8fff14508a0.png",
+    "static/media/Pexels Photo by Eric Esma.png": "/musica/static/media/Pexels Photo by Eric Esma.0696ad12dc475b55b8fd.png",
+    "static/media/waves.png": "/musica/static/media/waves.1b5d08c9188d85c8a566.png",
+    "static/media/shuffle.svg": "/musica/static/media/shuffle.fb0e62e10c6e96932b667c1300aa611e.svg",
+    "static/media/volume-high.svg": "/musica/static/media/volume-high.e3cff1db4f558232f2625d4477ac1fe4.svg",
+    "index.html": "/musica/index.html",
+    "static/media/previous.svg": "/musica/static/media/previous.dd5f3fc0817edc2b34ce3bd33d1e8a4d.svg",
+    "static/media/next.svg": "/musica/static/media/next.8f246edab9d3194aa184199ba114238e.svg",
+    "static/media/play icon.svg": "/musica/static/media/play icon.ec33adbbe51ad9127bdd7fe4cafd3f97.svg",
+    "main.fad0ace8.css.map": "/musica/static/css/main.fad0ace8.css.map",
+    "main.81afbcce.js.map": "/musica/static/js/main.81afbcce.js.map",
+    "787.b0b180bb.chunk.js.map": "/musica/static/js/787.b0b180bb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fad0ace8.css",
-    "static/js/main.e5e0189e.js"
+    "static/js/main.81afbcce.js"
   ]
 }
