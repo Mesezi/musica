@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/musica/static/css/main.fad0ace8.css",
-    "main.js": "/musica/static/js/main.81afbcce.js",
+    "main.css": "/musica/static/css/main.5528b480.css",
+    "main.js": "/musica/static/js/main.6f6fe24d.js",
     "static/js/787.b0b180bb.chunk.js": "/musica/static/js/787.b0b180bb.chunk.js",
     "static/media/Lead-image.png": "/musica/static/media/Lead-image.be665447a8fff14508a0.png",
     "static/media/Pexels Photo by Eric Esma.png": "/musica/static/media/Pexels Photo by Eric Esma.0696ad12dc475b55b8fd.png",
@@ -12,12 +12,12 @@
     "static/media/previous.svg": "/musica/static/media/previous.dd5f3fc0817edc2b34ce3bd33d1e8a4d.svg",
     "static/media/next.svg": "/musica/static/media/next.8f246edab9d3194aa184199ba114238e.svg",
     "static/media/play icon.svg": "/musica/static/media/play icon.ec33adbbe51ad9127bdd7fe4cafd3f97.svg",
-    "main.fad0ace8.css.map": "/musica/static/css/main.fad0ace8.css.map",
-    "main.81afbcce.js.map": "/musica/static/js/main.81afbcce.js.map",
+    "main.5528b480.css.map": "/musica/static/css/main.5528b480.css.map",
+    "main.6f6fe24d.js.map": "/musica/static/js/main.6f6fe24d.js.map",
     "787.b0b180bb.chunk.js.map": "/musica/static/js/787.b0b180bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fad0ace8.css",
-    "static/js/main.81afbcce.js"
+    "static/css/main.5528b480.css",
+    "static/js/main.6f6fe24d.js"
   ]
 }
