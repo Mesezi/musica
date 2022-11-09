@@ -10,8 +10,8 @@ function Sidebar() {
   return (
     <aside className='gap-10'>
     <div className='flex flex-col pl-7 md:px-4 md:py-4 mt-14 md:mt-0 gap-10'>
-    <NavLink onClick={closeMenu} className={({ isActive }) => (isActive ? "active" : "")} to="/musica/home"> <Home3 className='icon' variant="Bold" /> <span className='md:hidden'>Home</span> </NavLink>
-    <NavLink onClick={closeMenu} className={({ isActive }) => (isActive ? "active"  : "")} to='/musica/collections'> <MusicLibrary2 className='icon'  variant="Bold"/> <span className='md:hidden'>My Collections</span> </NavLink>
+    <NavLink onClick={closeMenu} className={({ isActive }) => (isActive ? "active" : "")} to="/home"> <Home3 className='icon' variant="Bold" /> <span className='md:hidden'>Home</span> </NavLink>
+    <NavLink onClick={closeMenu} className={({ isActive }) => (isActive ? "active"  : "")} to='/collections'> <MusicLibrary2 className='icon'  variant="Bold"/> <span className='md:hidden'>My Collections</span> </NavLink>
     <NavLink onClick={closeMenu}  className={({ isActive }) => (isActive ? "active"  : "")} to='/radio'> <Radio className='icon' variant="Bold" /> <span className='md:hidden'>Radio</span> </NavLink>
     
     

@@ -20,7 +20,7 @@ const collectionCategory = useRef('Top');
 function Redirect(){
   
   useEffect(()=>{
-    navigate('/musica/home');
+    navigate('/home');
   },[])
 }
 
@@ -30,21 +30,21 @@ function Redirect(){
           <Sidebar setMainPage={setMainPage} mainPage={mainPage}/>
 
           <Routes>
-            <Route path='/musica' element={<Redirect />} />
-          <Route exact path="/musica/home" element={<Home keyword={keyWord} setSongIndex={setSongIndex} songIndex={songIndex}
+            <Route path='' element={<Redirect />} />
+          <Route exact path="/home" element={<Home keyword={keyWord} setSongIndex={setSongIndex} songIndex={songIndex}
              setCurrentPlaylist={setCurrentPlaylist} setPlayPause={setPlayPause} playPause={playPause} streaming={streaming}
               setStreaming={setStreaming} collections={collections} allSongs={allSongs} audioRef={audioRef}  updateLike={updateLike} setCollections={setCollections} 
               setKeyWord={setKeyWord} collectionCategory={collectionCategory}/>} />
           
-          <Route exact path="/musica/collections" element={<Library collections={collections} allSongs={allSongs}  updateLike={updateLike} setCurrentPlaylist={setCurrentPlaylist}  setSongIndex={setSongIndex}
+          <Route exact path="/collections" element={<Library collections={collections} allSongs={allSongs}  updateLike={updateLike} setCurrentPlaylist={setCurrentPlaylist}  setSongIndex={setSongIndex}
            songIndex={songIndex} setPlayPause={setPlayPause} playPause={playPause} currentPlayList={currentPlayList} audioRef={audioRef}  streaming={streaming} setStreaming={setStreaming}  
            collectionCategory={collectionCategory}/>}/>
 
-          <Route exact path="/musica/home/top-charts" element={<Preview collectionCategory={collectionCategory} collections={collections} setCollections={setCollections}
+          <Route exact path="/home/top-charts" element={<Preview collectionCategory={collectionCategory} collections={collections} setCollections={setCollections}
           currentPlayList={currentPlayList} streaming={streaming} setStreaming={setStreaming} allSongs={allSongs} setAllSongs={setAllSongs} updateLike={updateLike}
           setCurrentPlaylist={setCurrentPlaylist} audioRef={audioRef} setSongIndex={setSongIndex} songIndex={songIndex} setPlayPause={setPlayPause} playPause={playPause}/>}/>
 
-          <Route exact path='/musica/home/player' element={<Fullplayer musicData={musicData} setMusicData={setMusicData} currentPlayList={currentPlayList} setCurrentPlaylist={setCurrentPlaylist}
+          <Route exact path='/home/player' element={<Fullplayer musicData={musicData} setMusicData={setMusicData} currentPlayList={currentPlayList} setCurrentPlaylist={setCurrentPlaylist}
          setPlayPause={setPlayPause} playPause={playPause} audioRef={audioRef}   audioVolume={audioVolume} setAudioVolume={setAudioVolume}
          audioDuration={audioDuration} setAudioDuration={setAudioDuration} audioTime={audioTime} setAudioTime={setAudioTime} loop={loop} setLoop={setLoop} 
          shuffle={shuffle} setShuffle={setShuffle} songIndex={songIndex} setSongIndex={setSongIndex} streaming={streaming} setStreaming={setStreaming}/>}/>

@@ -130,7 +130,7 @@ export default function Home({collectionCategory, collections, setCollections,
                 {
                     collections && collections.map((item, index)=>(
                         <div className="flex justify-between" key={index}> 
-                        <NavLink onClick={()=>{collectionCategory.current=`${item.category}`}} className="flex flex-col items-start md:flex-row gap-3 md:items-center" to='/musica/home/top-charts'>
+                        <NavLink onClick={()=>{collectionCategory.current=`${item.category}`}} className="flex flex-col items-start md:flex-row gap-3 md:items-center" to='/home/top-charts'>
                         <img src={item.bg}></img>
                         <div className="flex flex-col">
                         <h3>{item.title}</h3>

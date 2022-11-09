@@ -100,7 +100,7 @@ if(likedSongs){
     function handleClick(category){
         collectionCategory.current=`${category}`
         setTimeout(() => {
-            navigate('/musica/home/top-charts');
+            navigate('/home/top-charts');
         }, 500);
     }
 

@@ -43,7 +43,7 @@ body {
   /*
    Handle */
   ::-webkit-scrollbar-thumb {
-    background: black;
+    background: #FACD66;
   }
   
 
@@ -120,6 +120,7 @@ header{
   height: 1.4rem;
   width: 1.4rem;
   fill: white;
+  cursor: pointer;
 }
 
 .player-icons.active-icon{
@@ -278,6 +279,7 @@ font-size: .8rem;
   justify-self: center;
   align-self: flex-start;
   border: 1px solid rgba(255, 255, 255, 0.11);
+  cursor: pointer;
 }
 
 .top-heart-con .icon{

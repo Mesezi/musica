@@ -122,7 +122,7 @@ audioRef.current.currentTime = seekProgress / 100 * audioDuration;
   
   </audio>
   
-  <NavLink to="/musica/home/player" className='flex self-center song-details gap-3'>
+  <NavLink to="/home/player" className='flex self-center song-details gap-3'>
   <img onError={(e)=>{e.target.src='https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80'}}  src={ streaming ? musicData.thumbnail :currentPlayList[songIndex].backdrop}></img>
   <div>
     <h4>{streaming ? musicData.title :currentPlayList[songIndex].title}</h4>
